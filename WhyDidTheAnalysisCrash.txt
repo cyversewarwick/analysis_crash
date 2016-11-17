@@ -1,0 +1,16 @@
+Dear User,
+
+It would appear that your analysis has crashed. In the majority of cases, this is due to incorrect input, be it files formatted in a manner that the program can't understand or argument values not matching what the algorithm is expecting to see.
+
+As such, the easiest way to troubleshoot is to compare your inputs against the documentation and demonstration data to find any formatting discrepancies. To do that, perform the following:
+
+1. Open up the app you used to run the failed analysis.
+2. Read the information fields for all the inputs by hovering over the blue "i" icons to their right for a quick overview of what was required.
+3. Read the app's brief Readme tab. Within said tab, there will be a link to a more throughout documentation that should outline all the necessary formatting, typically hosted on GitHub.
+4. Open the aforementioned documentation. Check that all your input matches the provided specifications. For files, a set of demonstration test data is available within the Community Data folder, with an explicit location mentioned in the documentation where applicable. Compare your files against those for formatting. For arguments, most analyses should run with the defaults.
+5. If still stuck, go into the logs folder of the failed analysis results folder and open up condor-stderr-0. Sometimes the crash messages offered by the programs allow for easy pinpointing of the problem.
+
+If none of the above helped, feel free to write us at info@cyverse.warwick.ac.uk. Please attach a copy of the condor-stderr-0 file mentioned in point 5 along with details of the used input in your message.
+
+Sincerely,
+CyVerse UK Team, Warwick Division
